@@ -1,0 +1,42 @@
+.speechbubble{
+    background: darkolivegreen;
+    color: oldlace;
+    border: 2px solid oldlace; 
+    display:inline-block;
+    padding: 5px;
+    position: relative;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 100;
+    
+}
+
+.speechbubble::after{
+    content: "";
+    position:relative; 
+    border-bottom: 20px solid darkolivegreen;
+    border-left: 11px solid transparent; 
+    border-right: 10px solid
+    transparent;
+    bottom: 90;
+    left: 100;
+    
+}
+
+.takeshi{
+    padding-left: 55;
+}
+
+.boxed{
+    opacity:0.5;
+    border: 1px solid green;
+    width: 100;
+    padding-left: 10;
+    padding-top:3;
+    margin-left: 100;
+    margin-top: 10
+}
+
+.boxed:hover{
+       opacity: 1.0;
+}

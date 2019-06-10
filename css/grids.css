@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+}
+body {
+background: black;
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+h1 {
+    color: blue;    /* hex value */
+    font-family: sans-serif;
+    text-align: center; 
+    padding-left: 100px;
+    letter-spacing: 5;
+    font-size: 50;
+ 
+}
+p {
+    color: blue;
+    font-family: sans-serif;
+    text-align: center; 
+    padding-top: 150;
+    padding-right: 50
+}
+
+

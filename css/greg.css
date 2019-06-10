@@ -1,0 +1,49 @@
+p{
+    font-family: sans-serif;
+    padding-top:25;
+    padding-bottom: 20;
+    margin: 10;
+    margin-left:300;
+    margin-right: 300;
+    
+    
+}
+
+
+.speech_bubble{
+    opacity: 0.6;
+    content: "";
+    background: #4CC4E8;
+    color: black;
+    border: 2px solid white; 
+    display:inline-block;
+    padding: 8px;
+    position: relative;
+    font-family: sans-serif;
+    border-radius: .4em;
+    
+    margin-left: 340;
+    margin-right:480;
+}
+
+.speech_bubble:after{
+     
+    content: "";
+    position:absolute; 
+    display:block;    
+    word-wrap:break-word;
+    
+    left: -15px;
+    top: 8px;
+    
+    width:0;
+    height:0; 
+    border-top:3px solid transparent;
+    border-bottom:8px solid transparent; 
+    border-right:15px solid #4CC4E8;
+}
+
+.speech_bubble:hover{
+    
+    opacity:1.0;
+}

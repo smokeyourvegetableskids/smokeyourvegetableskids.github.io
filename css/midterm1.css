@@ -1,0 +1,32 @@
+body{
+    background-image: url("BLISS.png");
+    
+}
+
+h1{
+    text-align: center;
+    font-family: serif; 
+    color:white;
+    letter-spacing: 13px;
+    
+}
+
+div{
+    align-items: center;
+    
+}
+
+h2{
+    text-align:right;
+    font-family: serif;
+    color:blue;
+    text-shadow: black;
+    
+}
+
+h4{
+    text-align: right;
+    font-family: serif;
+    color:darkblue;
+    
+}

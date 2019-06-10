@@ -1,0 +1,32 @@
+.img{
+    
+
+    
+}
+
+#text p{
+    margin:50;
+    font-family:sans-serif;
+    
+    
+}
+
+.boxed{ 
+    border: 1px solid green;
+    width: 150;
+    padding-left: 10;
+    padding-top:3;
+    margin-left: 100;
+    margin-top: 10;
+    font-family: sans-serif;
+    color:black;
+    
+    
+}
+
+h1{
+    font-family: sans-serif;
+    font-style: oblique;
+    padding-bottom: 10px;
+    
+}

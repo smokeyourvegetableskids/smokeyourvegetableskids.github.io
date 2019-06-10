@@ -1,0 +1,10 @@
+.parent{
+    position: relative;
+}
+
+.over-img{
+    position: absolute;
+    top: 80;
+    left: 20;
+    
+}

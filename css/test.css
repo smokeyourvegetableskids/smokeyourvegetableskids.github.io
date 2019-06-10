@@ -1,0 +1,37 @@
+body{
+    background-color:#90BFFF;   
+}
+
+h1{
+    color:white; 
+    text-shadow: 2px 2px #3068B3;
+    font-family: 'Crimson Text,' serif;
+    font-size: 150px;
+    text-align:center;
+}
+
+p{ 
+    font-family: 'Montserrat', sans-serif;
+    color:white; 
+    font-size: 20px;
+    text-align: center
+}
+
+h2{
+    color:white; 
+    text-shadow: 2px 2px #6E9CDA;
+    font-family: 'Crimson Text,' serif;
+    font-size: 75px;
+    text-align:center   
+}
+
+h3{
+    color:white; 
+    text-shadow: 2px 2px #6E9CDA;
+    font-family: 'Crimson Text,' serif;
+    font-size: 50px;
+    text-align:center 
+}
+.div{
+    
+}

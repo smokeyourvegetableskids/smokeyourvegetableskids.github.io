@@ -1,0 +1,25 @@
+.button{
+    opacity:0.6;
+    border: 1px solid green;
+    width: 200;
+    padding-left: 10;
+    padding-top:3;
+    margin-left:440;
+    margin-top: 40;
+    font-family: sans-serif;
+    color: black;
+   
+}
+
+
+.button:hover{
+    opacity:1.0;
+}
+
+p{
+    font-family: sans-serif;
+    padding-top:25;
+    margin: 10;
+    margin-left:300;
+    margin-right: 300;
+}

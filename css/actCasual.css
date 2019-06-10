@@ -1,0 +1,46 @@
+.speech_bubble{
+    opacity:0.6;
+    content: "";
+    background: #4CC4E8;
+    color: black;
+    border: 2px solid white; 
+    display:inline-block;
+    padding: 8px;
+    position: relative;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 200;
+    margin-right:50;
+    border-radius: .4em
+}
+
+.speech_bubble::after{
+    content: "";
+    position:absolute; 
+    display:block;    
+    word-wrap:break-word;
+    
+    left: -15px;
+    top: 10px;
+    
+    width:0;
+    height:0; 
+    border-top:3px solid transparent;
+    border-bottom:8px solid transparent; 
+    border-right:15px solid #4CC4E8;
+
+}
+
+.speech_bubble:hover{
+    
+    opacity: 1.0;
+}
+
+p{
+    padding-top:25;
+    margin: 10;
+    font-family: sans-serif;
+    margin-left:200;
+    margin-right:200;
+    
+}
